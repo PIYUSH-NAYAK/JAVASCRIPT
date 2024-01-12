@@ -9,6 +9,7 @@ pName ="rishu"
 lName = "gupta"
 // for executing many var together with one console
 console.table([ pName, lName,mNo])
+console.log([ pName, lName,mNo])
 console.log(pName)
 console.log(lName)
 console.log(mNo)
