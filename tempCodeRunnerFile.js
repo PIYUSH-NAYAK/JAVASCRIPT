@@ -1,2 +1,1 @@
-console.log("2" == 2);
-console.log("02" == 2);
+console.log(`the char at index ${index} is ${sentence.charAt(index)}`)
