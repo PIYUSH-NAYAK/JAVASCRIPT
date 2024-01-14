@@ -1,2 +1,2 @@
 # JAVASCRIPT
-learning and making js project
+learning js from beginning
