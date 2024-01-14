@@ -42,7 +42,7 @@ console.log(url.endsWith('.com'))
 // // fontsize : ƒ fontsize()
 
 // // includes : ƒ includes()
-word="piyush"
+let word="piyush"
 console.log(`the word "${word}" ${sentence.includes(word) ? 'is' : 'is not' } in the sentence`)
 // // indexOf : ƒ indexOf()
 let srchword="nayak"
@@ -91,41 +91,41 @@ console.log(sentence.replace('piyush nayak','rishu gupta'))
 // // Symbol(Symbol.iterator) : ƒ [Symbol.iterator]()
 // // [[Prototype]] : Object
 
-// let name = new String('piyush')
-// // console.log(name.length)
-// // console.log(name.toLowerCase())
-// // console.log(name.toUpperCase())
+let name = new String('piyush')
+console.log(name.length)
+console.log(name.toLowerCase())
+console.log(name.toUpperCase())
 
-// // console.log(name);
-// let fname= "PIYUSH"
-// // console.log(fname.length)
+// console.log(name);
+let fname= "PIYUSH"
+console.log(fname.length)
 
-// // substring
-// // let newName=fname.substring(1,4)
-// // console.log(newName)
+// substring
+let newName=fname.substring(1,4)
+console.log(newName)
 
-// // //slicing
-// // let anotherString=fname.slice(-4,-5)
-// console.log(fname.slice(0,4))
+//slicing
+let anotherString=fname.slice(-4,-5)
+console.log(fname.slice(0,4))
 
-// // trimming
+// trimming
 
-// let lname="   nayak   "
-// console.log(lname)
-// console.log(lname.trim())
+let lname="   nayak   "
+console.log(lname)
+console.log(lname.trim())
 
 // for replacing something with another
-// let college = "bad_college"
-// console.log(college.replace('bad', 'good'))
+let college = "bad_college"
+console.log(college.replace('bad', 'good'))
  
-// console.log(college.includes('college'))
-// console.log(college.includes('good'))
+console.log(college.includes('college'))
+console.log(college.includes('good'))
 
 // splitting array into an array with words spaces , char 
 
-// let string="my name is piyush nayak"
-// const word1=string.split(' ')
-// console.log(word1)
-// console.log(word1[3])
-// const word2=string.split('')
-// console.log(word2[8])
+let string="my name is piyush nayak"
+const word1=string.split(' ')
+console.log(word1)
+console.log(word1[3])
+const word2=string.split('')
+console.log(word2[8])
